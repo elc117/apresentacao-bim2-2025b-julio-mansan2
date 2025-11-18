@@ -4,7 +4,7 @@
 
 Um semáforo em programação concorrente é uma classe que mantém permissões, estas sendo concedidas às Threads que buscam acessar o recurso. Ou seja, se uma thread solicita uma permissão e o semáforo a possui, ela é concedida à thread. Do contrário, a thread fica bloqueada até que alguma permissão fique disponível.
 
-<video controls src="static/Semaphore.mp4" title="Semaphore"></video>
+https://github.com/user-attachments/assets/8897eaa8-a5c9-405d-818c-55bd77612baa
 
 * No código-exemplo, são criadas 5 threads e um semáforo com 2 permissões. 2 threads "entram" no semáforo e o restante permanece bloqueado. Quando as permissões são liberadas novamente, a thread que estava bloqueada, entra no semáforo. Isso persiste até a finalização do programa.
 
