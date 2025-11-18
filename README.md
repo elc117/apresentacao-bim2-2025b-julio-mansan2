@@ -14,7 +14,7 @@ https://github.com/user-attachments/assets/8897eaa8-a5c9-405d-818c-55bd77612baa
 
 Exchanger é uma classe que permite que duas threads troquem objetos de maneira síncrona. Funciona como um ponto de encontro, onde uma thread espera a chegada de outro e ambos "trocam" objetos entre si.
 
-<video controls src="static/Exchanger.mp4" title="Exchanger"></video>
+https://github.com/user-attachments/assets/fd377b8f-12c0-4484-b8c9-91007bb5d9b6
 
 * No código-exemplo, são criadas 2 threads e um exchanger. A primeira thread envia sua mensagem e fica esperando a próxima thread. Quando a segunda thread envia a sua mensagem para o exchanger, ambas "trocam" e o programa finaliza.
 
@@ -24,7 +24,7 @@ Exchanger é uma classe que permite que duas threads troquem objetos de maneira 
 
 CyclicBarrier é uma classe de sincronização que permite que múltiplas threads esperem umas as outras para continuar a execução do programa.
 
-<video controls src="static/CyclicBarrier.mp4" title="CyclicBarrier"></video>
+https://github.com/user-attachments/assets/33fea4c7-0664-4035-be20-dc1f361929fa
 
 * No código-exemplo, é criado uma barreira que aguarda 3 threads. Durante a execução, a barreira espera pela chegada de todas as threads. Quando todas chegam no ponto em comum, são liberadas. 
 
@@ -34,7 +34,7 @@ CyclicBarrier é uma classe de sincronização que permite que múltiplas thread
 
 CountDownLatch é uma classe que permite as threads esperarem outras threads finalizarem suas tarefas. Ele recebe uma contagem inicial, que é decrementada conforme as atividades são finalizadas. Quando o contador chega a zero, todas as threads são liberadas.
 
-<video controls src="static/CountDownLatch.mp4" title="CountDownLatch"></video>
+https://github.com/user-attachments/assets/1cb355d2-8466-4ed2-84c9-1e3ac3cbb42a
 
 * No código-exemplo, é criado um CountDownLatch com contador 3 e 3 threads. Assim que uma thread finaliza suas tarefas, o contador é decrementado. Quando chega em 0, o programa finaliza.
 
@@ -44,7 +44,7 @@ CountDownLatch é uma classe que permite as threads esperarem outras threads fin
 
 ConcurrentLinkedQueue é uma fila thread-safe e não bloqueante, baseada em nós encadeados. Ela permite que várias threads insiram e removam elementos simultaneamente sem travamentos.
 
-<video controls src="static/ConcurrentLinkedQueue.mp4" title="ConcurrentLinkedQueue"></video>
+https://github.com/user-attachments/assets/71a59328-7b74-4e2c-bc02-20469b52880f
 
 * No código-exemplo, é possível ver algumas operações possíveis dentro de uma fila concorrente.
 
